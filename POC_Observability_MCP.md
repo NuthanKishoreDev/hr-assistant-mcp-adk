@@ -15,10 +15,10 @@ The solution implements a dual-layered observability stack using the Model Conte
 
 ### Key Components:
 1.  **ADK Agent (Consumer)**: An HR Assistant that interprets user intent and routes requests to tools.
-2.  **MCP Server (Provider)**: A standardized server managing employee data via a JSON-based persistent store ([employees.json](file:///d:/GENAI/KPMG_POC/adk-mcp-demo/mcp-server/employees.json)).
+2.  **MCP Server (Provider)**: A standardized server managing employee data via a JSON-based persistent store ([employees.json](file:///d:/GENAI/IT Industry_POC/adk-mcp-demo/mcp-server/employees.json)).
 3.  **Observability Layer**: 
-    - **Server-Side**: Instrumented tool decorators that log every request payload and JSON response to [server.log](file:///d:/GENAI/KPMG_POC/adk-mcp-demo/mcp-server/logs/server.log).
-    - **Agent-Side**: Configured Python logging to capture high-level `User Request`, `LLM Tool Calls`, and `Agent Response` in [agent.log](file:///d:/GENAI/KPMG_POC/adk-mcp-demo/MCPAgent/logs/agent.log).
+    - **Server-Side**: Instrumented tool decorators that log every request payload and JSON response to [server.log](file:///d:/GENAI/IT Industry_POC/adk-mcp-demo/mcp-server/logs/server.log).
+    - **Agent-Side**: Configured Python logging to capture high-level `User Request`, `LLM Tool Calls`, and `Agent Response` in [agent.log](file:///d:/GENAI/IT Industry_POC/adk-mcp-demo/MCPAgent/logs/agent.log).
 
 ## 3. Architecture Overview
 
@@ -45,7 +45,7 @@ graph TD
 ## 4. Technical Implementation Details
 
 ### Data Management
-- **Persistence**: Extracted hardcoded data into a centralized [employees.json](file:///d:/GENAI/KPMG_POC/adk-mcp-demo/mcp-server/employees.json) file.
+- **Persistence**: Extracted hardcoded data into a centralized [employees.json](file:///d:/GENAI/IT Industry_POC/adk-mcp-demo/mcp-server/employees.json) file.
 - **Scalability**: Implemented mechanisms to dynamically load and persist employee records, including batch generation of test data.
 
 ### Logging Strategy
@@ -59,4 +59,3 @@ graph TD
 - **Separation of Concerns**: Business logic remains decoupled from the data access and logging infrastructure.
 
 ---
-*Created by Antigravity AI Assistant.*

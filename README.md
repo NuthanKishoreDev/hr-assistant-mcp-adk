@@ -95,4 +95,4 @@ python adk-agent/agent.py interactive
 - **Clean Transport**: Server-side logs are isolated to files to prevent any interference with the `stdio` communication stream.
 
 ---
-*Developed for KPMG POC - Employee HR Assistant Agent.*
+*Developed for POC - Employee HR Assistant Agent.*
