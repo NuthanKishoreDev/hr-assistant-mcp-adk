@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "department": "Engineering",
+    "role": "Senior Engineer",
+    "salary": 120000,
+    "email": "alice@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "Bob Martinez",
+    "department": "Marketing",
+    "role": "Marketing Manager",
+    "salary": 95000,
+    "email": "bob@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "name": "Carol Williams",
+    "department": "Engineering",
+    "role": "Principal Engineer",
+    "salary": 155000,
+    "email": "carol@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 4,
+    "name": "David Kim",
+    "department": "HR",
+    "role": "HR Specialist",
+    "salary": 75000,
+    "email": "david@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "name": "Susan Williams",
+    "department": "Operations",
+    "role": "Director",
+    "salary": 131000,
+    "email": "susan.williams@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "name": "Patricia Wright",
+    "department": "Finance",
+    "role": "Manager",
+    "salary": 108000,
+    "email": "patricia.wright@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "name": "Michael Martin",
+    "department": "Sales",
+    "role": "Analyst",
+    "salary": 71000,
+    "email": "michael.martin@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 9,
+    "name": "Karen Jones",
+    "department": "Legal",
+    "role": "Specialist",
+    "salary": 124000,
+    "email": "karen.jones@acme.com",
+    "status": "inactive"
+  },
+  {
+    "id": 10,
+    "name": "Sarah White",
+    "department": "HR",
+    "role": "Associate",
+    "salary": 143000,
+    "email": "sarah.white@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 11,
+    "name": "Mary Edwards",
+    "department": "HR",
+    "role": "Specialist",
+    "salary": 160000,
+    "email": "mary.edwards@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 12,
+    "name": "David Baker",
+    "department": "Engineering",
+    "role": "Developer",
+    "salary": 159000,
+    "email": "david.baker@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 13,
+    "name": "Richard Clark",
+    "department": "Legal",
+    "role": "Architect",
+    "salary": 113000,
+    "email": "richard.clark@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 14,
+    "name": "Susan Brown",
+    "department": "Sales",
+    "role": "Lead",
+    "salary": 129000,
+    "email": "susan.brown@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 15,
+    "name": "Elizabeth Harris",
+    "department": "Legal",
+    "role": "Manager",
+    "salary": 137000,
+    "email": "elizabeth.harris@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 16,
+    "name": "Jennifer Taylor",
+    "department": "Sales",
+    "role": "Specialist",
+    "salary": 86000,
+    "email": "jennifer.taylor@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 17,
+    "name": "David Cooper",
+    "department": "Finance",
+    "role": "Architect",
+    "salary": 125000,
+    "email": "david.cooper@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 18,
+    "name": "Robert Wright",
+    "department": "Finance",
+    "role": "Developer",
+    "salary": 109000,
+    "email": "robert.wright@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 19,
+    "name": "James Evans",
+    "department": "HR",
+    "role": "Architect",
+    "salary": 143000,
+    "email": "james.evans@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 20,
+    "name": "Charles Clark",
+    "department": "Marketing",
+    "role": "Analyst",
+    "salary": 156000,
+    "email": "charles.clark@acme.com",
+    "status": "active"
+  },
+  {
+    "id": 21,
+    "name": "Nandaiahgari Nuthan Kishore",
+    "department": "Gen AI Delivery",
+    "role": "SSDE",
+    "salary": 9500000,
+    "email": "nuthankishore@outlook.com",
+    "status": "active"
+  },
+  {
+    "id": 22,
+    "name": "Frank Nguyen",
+    "department": "Data Science",
+    "role": "Data Scientist",
+    "salary": 110000,
+    "email": "frank@acme.com",
+    "status": "active"
+  }
+]
