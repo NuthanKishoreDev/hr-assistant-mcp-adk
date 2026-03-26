@@ -16,7 +16,7 @@ log_dir.mkdir(exist_ok=True)
 log_file = log_dir / "agent.log"
 
 logging.basicConfig(
-    level=logging.INFO, # Reverted to INFO
+    level=logging.INFO, # Keep root at INFO to avoid noise from other libraries
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
         RotatingFileHandler(log_file, maxBytes=10*1024*1024, backupCount=5),
@@ -24,6 +24,9 @@ logging.basicConfig(
     ],
     force=True
 )
+# Enable detailed ADK logs for LLM requests/responses
+logging.getLogger("google_adk").setLevel(logging.DEBUG)
+
 logger = logging.getLogger("MCPAgent")
 
 logger.info("HR Assistant Agent initializing...")
