@@ -187,5 +187,14 @@
     "salary": 110000,
     "email": "frank@acme.com",
     "status": "active"
+  },
+  {
+    "id": 23,
+    "name": "Frank Nguyen",
+    "department": "Data Science",
+    "role": "Data Scientist",
+    "salary": 110000,
+    "email": "frank@acme.com",
+    "status": "active"
   }
 ]
